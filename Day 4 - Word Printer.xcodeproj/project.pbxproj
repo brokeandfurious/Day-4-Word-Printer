@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D3C242E1FAFFCD800E2CAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C242D1FAFFCD800E2CAE9 /* main.m */; };
+		9D08BA251FAFFFDA00FB20D4 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08BA1E1FAFFFDA00FB20D4 /* Controller.m */; };
+		9D08BA261FAFFFDA00FB20D4 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08BA1F1FAFFFDA00FB20D4 /* Printer.m */; };
+		9D08BA271FAFFFDA00FB20D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08BA211FAFFFDA00FB20D4 /* main.m */; };
+		9D08BA281FAFFFDA00FB20D4 /* WonkyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08BA241FAFFFDA00FB20D4 /* WonkyController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D08BA1E1FAFFFDA00FB20D4 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		9D08BA1F1FAFFFDA00FB20D4 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		9D08BA201FAFFFDA00FB20D4 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		9D08BA211FAFFFDA00FB20D4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../../Desktop/iOS-Delegates-2-WordPrinter-master/WordPrinter/main.m"; sourceTree = "<group>"; };
+		9D08BA221FAFFFDA00FB20D4 /* WonkyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WonkyController.h; sourceTree = "<group>"; };
+		9D08BA231FAFFFDA00FB20D4 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		9D08BA241FAFFFDA00FB20D4 /* WonkyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WonkyController.m; sourceTree = "<group>"; };
 		9D3C242A1FAFFCD800E2CAE9 /* Day 4 - Word Printer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day 4 - Word Printer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D3C242D1FAFFCD800E2CAE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		9D3C242C1FAFFCD800E2CAE9 /* Day 4 - Word Printer */ = {
 			isa = PBXGroup;
 			children = (
-				9D3C242D1FAFFCD800E2CAE9 /* main.m */,
+				9D08BA231FAFFFDA00FB20D4 /* Controller.h */,
+				9D08BA1E1FAFFFDA00FB20D4 /* Controller.m */,
+				9D08BA211FAFFFDA00FB20D4 /* main.m */,
+				9D08BA201FAFFFDA00FB20D4 /* Printer.h */,
+				9D08BA1F1FAFFFDA00FB20D4 /* Printer.m */,
+				9D08BA221FAFFFDA00FB20D4 /* WonkyController.h */,
+				9D08BA241FAFFFDA00FB20D4 /* WonkyController.m */,
 			);
 			path = "Day 4 - Word Printer";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3C242E1FAFFCD800E2CAE9 /* main.m in Sources */,
+				9D08BA261FAFFFDA00FB20D4 /* Printer.m in Sources */,
+				9D08BA281FAFFFDA00FB20D4 /* WonkyController.m in Sources */,
+				9D08BA271FAFFFDA00FB20D4 /* main.m in Sources */,
+				9D08BA251FAFFFDA00FB20D4 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
